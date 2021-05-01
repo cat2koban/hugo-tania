@@ -107,7 +107,7 @@ switchDarkMode = function () {
     }
 
     const modeIcons = {
-        'dark': '☀️',
+        'dark': '🌞',
         'light': '🌙'
     }
 
@@ -120,7 +120,7 @@ switchDarkMode = function () {
         const currentSetting = mode || getLS(darkModeStorageKey);
 
         if (currentSetting === getModeFromCSSMediaQuery()) {
-            // When the user selected mode equal prefers-color-scheme 
+            // When the user selected mode equal prefers-color-scheme
             // reset and restored to automatic mode
             nowMode = getModeFromCSSMediaQuery()
             resetRootDarkModeAttributeAndLS();
