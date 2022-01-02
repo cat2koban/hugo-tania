@@ -118,8 +118,7 @@
             }
 
             &:hover, &[aria-current='page'] {
-                background: var(--light-background);
-                color: var(--dark-font-color);
+                color: #63B3ED;
             }
 
             &.brand {
@@ -130,7 +129,7 @@
                 color: var(--dark-font-color);
 
                 &:hover {
-                    background: var(--light-background) !important;
+                    color: #63B3ED;
                 }
 
                 img {
