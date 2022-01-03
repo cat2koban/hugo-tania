@@ -59,6 +59,12 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .post-row time {
+        margin-right: 10px;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .posts {
         margin-left: -1rem;
@@ -77,6 +83,7 @@
     }
 
     .post-row time {
+        margin-right: 10px;
         flex: 0 0 80px;
     }
 }
